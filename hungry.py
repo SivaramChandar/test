@@ -4,4 +4,6 @@ if hungry == "yes":
     print("Drink Tea")
     print("Eat Biscuit")
 else:
-    print("Do your work")
+    play = input("do you want to play? ")
+    if play == "yes":
+        print("go and play cricket")
